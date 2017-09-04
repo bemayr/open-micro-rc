@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "types": ["openjscad-helpers"],
+    "typeRoots": ["./_to-publish"],
+    "lib": ["es2015.core", "es2015"],
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "target": "es5"
+  },
+  "exclude": ["node_modules"]
+}
